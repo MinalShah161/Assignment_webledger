@@ -68,3 +68,27 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Technical Documentation
+
+Billing Project Technical Documentation
+Table of Contents
+Project Overview
+Architecture
+Data Flow
+
+1. Project Overview
+The Billing Project is a web application which provides features for creating and viewing invoices, as well as tracking payments. The application is built using a React frontend with data stored in localStorage.
+
+2. Architecture
+The project follows a client-server architecture:
+
+Frontend:
+Technology: React
+State Management: localStorage
+Styling: Material-UI
+
+3. Data Flow
+The data flow in the billing project is as follows:
+
+This is a single page application where you will see a wizard which displays 3 steps in which first step asks the user for billing address and shipping address for the invoice and the second step is for the item details where the tax is calculated and the last step shows how the bill will be shown to the user and finish will let you print the bill.
